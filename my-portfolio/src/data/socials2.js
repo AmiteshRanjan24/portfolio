@@ -23,7 +23,7 @@ export const socialLinks2 = [
     name: "CodeChef",
     handle: "@amitesh_ranjan",
     description:
-      "Improving my contest strategy and problem-solving speed — 2★ coder",
+      "Improving my contest strategy and problem-solving speed - 2★ coder",
     url: "https://www.codechef.com/users/amitesh_ranjan",
     icon: Trophy,
     color: "bg-indigo-600",
