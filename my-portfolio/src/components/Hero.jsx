@@ -82,7 +82,7 @@ export default function Hero() {
       onMouseMove={handleMouseMove}
     >
       {/* Base Dark Gradient */}
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(37,99,235,0.15),transparent_60%),radial-gradient(circle_at_bottom,_rgba(16,185,129,0.15),transparent_60%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(37,99,235,0.15),transparent_60%),radial-gradient(circle_at_bottom,_rgba(16,185,129,0.19),transparent_60%)]" />
 
       {/* The Static Binary Grid */}
       <BinaryBackground rows={ROWS} cols={COLS} />
@@ -91,7 +91,7 @@ export default function Hero() {
       <div
         className="pointer-events-none absolute inset-0 transition-opacity duration-300"
         style={{
-          background: `radial-gradient(600px circle at ${cursorPos.x}% ${cursorPos.y}%, rgba(16, 185, 129, 0.15), transparent 40%)`,
+          background: `radial-gradient(600px circle at ${cursorPos.x}% ${cursorPos.y}%, rgba(16, 185, 129, 0.19), transparent 40%)`,
           mixBlendMode: "screen",
         }}
       />
